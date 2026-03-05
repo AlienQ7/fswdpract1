@@ -1,6 +1,147 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <script src="js/script.js"></script>
+</head>
+
+<style>
+.form-group {
+    margin-top: 30px;
+}
+
+h2 {
+    margin-top: 40px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #2c3e50;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #28a745;
+    display: inline-block;
+}
+
+.submit-btn {
+    margin-top: 25px;
+    background-color: #28a745;
+    color: rgb(255, 255, 255);
+    padding: 10px 25px;
+    border:none;
+
+    border-radius:6px;
+    font-weight:600;
+    letter-spacing:0.5px;
+    transition: all 0.35s ease;
+}
+
+.submit-btn:hover {
+    background-color: #208136;
+    transform: scale(1) translateY(-3px);
+    box-shadow: 0px 8px 18px rgba(0,0,0,0.35);
+}
+</style>
+
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+
+            <form>
+
+                <div class="row">
+                    
+                    <div class="col-sm-4 col-md-6 col-lg-4 form-group">
+                        <input type="text" class="form-control" placeholder="Enter your name" name="full_name"/>
+                    </div>
+
+                    <div class="col-sm-4 col-md-6 col-lg-4 form-group">
+                        <input type="text" class="form-control" placeholder="Enter your fathers name" name="father_name"/>
+                    </div>
+
+                    <div class="col-sm-4 col-md-6 col-lg-4 form-group">
+                        <input type="text" class="form-control" placeholder="Enter Aadhaar number" name="aadhaar" maxlength="12"/>
+                    </div>
+
+                    <div class="col-sm-4 col-md-6 col-lg-4 form-group">
+                        <input type="email" class="form-control" placeholder="Enter Email" name="email"/>
+                    </div>
+ 
+                    <div class="col-sm-4 col-md-6 col-lg-4 form-group">
+                        <input type="password" class="form-control" placeholder="Enter password" name="password"/>
+                    </div>
+
+                    <div class="col-sm-4 col-md-6 col-lg-4 form-group">
+                        <select class="form-control">
+                            <option value="">Select an option</option>
+                            <option value="10th">10th</option>
+                            <option value="12th">12th</option>
+                            <option value="Graduate">Graduate</option>
+                            <option value="Masters">Masters</option>
+                            <option value="PHD">PHD</option>
+                        </select>
+                    </div>
+
+                    <div class="col-sm-4 col-md-6 col-lg-4 form-group">
+                        <select class="form-control">
+                            <option value="">Gender</option>
+                            <option value="MALE">MALE</option>
+                            <option value="FEMALE">FEMALE</option>
+                        </select>
+                    </div>
+
+                    <div class="col-sm-4 col-md-6 col-lg-4 form-group">
+                        <input type="date" class="form-control" name="dob"/>
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>Bank details information</h2>
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-sm-4 col-md-6 col-lg-4 form-group">
+                        <input type="text" class="form-control" placeholder="Account holder name" name="account_name"/>
+                    </div>
+
+                    <div class="col-sm-4 col-md-6 col-lg-4 form-group">
+                        <input type="text" class="form-control" placeholder="Bank name" name="bank_name"/>
+                    </div>
+
+                    <div class="col-sm-4 col-md-6 col-lg-4 form-group">
+                        <input type="text" class="form-control" placeholder="Account number" name="account_number" maxlength="12"/>
+                    </div>
+
+                    <div class="col-sm-4 col-md-6 col-lg-4 form-group">
+                        <input type="text" class="form-control" placeholder="IFSC code" name="ifsc"/>
+                    </div>
+
+                </div>
+
+                
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <button type="submit" class="submit-btn">
+                            SUBMIT
+                        </button>
+                    </div>
+                </div>
+
+            </form>
+
+        </div>
+    </div>
+</div>
+
+
+
+</body>
+</html>
+<!-- <!DOCTYPE html>
+<html>
+<head>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <style>
         .form-group-row div {
@@ -78,3 +219,4 @@
     </div>
 </body>
 </html>
+-->
