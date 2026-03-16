@@ -1,4 +1,5 @@
 ## 🏦 Bank Registration Form ##
+For demo visit : https://alienq7.github.io/fswdpract1
 
 A clean, responsive web form built with Bootstrap and Vanilla JS to collect personal and banking details. This was designed as a practical exercise for API integration.
 🛠️ Tech Stack
