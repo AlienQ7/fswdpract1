@@ -33,3 +33,10 @@ fetch(url, {
     body: JSON.stringify(data)
 })
 ```
+
+Do these practicals in class-
+Create a 1D array of numbers 0–9, then reverse it.
+Create a 4x4 identity matrix, then replace its diagonal with the values 1,2,3,4.
+Given arr = np.arange(20), reshape it into a 4x5 matrix, then extract all values greater than 10.
+Create two arrays of shape (3,3) and compute their matrix product (not element-wise).
+Given a 1D array of 15 random integers, find the index of the maximum value and replace all values above the mean with 0.
